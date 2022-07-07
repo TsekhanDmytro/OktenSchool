@@ -1,0 +1,39 @@
+
+.container {
+    margin: auto;
+    width: 50vw;
+}
+
+.background_light_blue {
+    background: #246abc;
+}
+
+.background_dark_blue {
+    background: #18467b;
+}
+
+.style_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+.widgets {
+    height: 200px;
+}
+
+.content_blok {
+    height: 300px;
+    width: 270px;
+    margin: 20px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    height: 500px;
+}
