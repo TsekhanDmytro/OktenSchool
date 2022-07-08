@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contayner {
+
+    width: 800px;
+    height: 400px;
+    border: silver solid 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box {
+    height: 300px;
+    width: 200px;
+    border: silver solid 2px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.style_h4 {
+    margin: 70px auto 10px;
+}
+
+.p_style {
+    text-align: center;
+    margin: 10px auto 20px;
+    padding: 0 20px;
+    color: #b5aaa2;
+
+}
+
+.button_style {
+    height: 35px;
+    width: 150px;
+    background: white;
+    border: #151f28 solid 1px;
+
+}
