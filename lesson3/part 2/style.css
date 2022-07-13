@@ -1,8 +1,6 @@
 body {
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .color_darklue {
@@ -12,8 +10,7 @@ body {
 .color_silver {
     background: #ced8e1;
 }
-
-.color_mediumpurple {
+.color_mediumpurple{
     background: mediumpurple;
     margin: 10px;
 }
@@ -33,7 +30,7 @@ body {
 .father {
     width: 50vw;
     height: 100vh;
-    background: green;
+    margin: auto;
 }
 
 .head {
