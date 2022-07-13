@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.father {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+    border: 2px solid silver;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    border: 2px solid silver;
+}
+
+.icon {
+    position: relative;
+    bottom: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid silver;
+    background: white;
+    border-radius: 50%;
+}
+
+.icon .fa-solid {
+    color: #f2af4f;
+    font-size: 30px;
+}
+
+.h3 {
+    margin: 0 auto;
+}
+
+.text {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.button {
+    height: 30px;
+    width: 150px;
+    background: white;
+    border: 1px solid black;
+}
