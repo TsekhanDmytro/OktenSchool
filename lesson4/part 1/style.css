@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+.father{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+}
+.teht_back_color-border_rad{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d9d9d9;
+    color: #828282;
+    border-radius: 10px;
+    font-size: 30px;
+margin: 5px;
+}
+.bc{
+    display: flex;
+}
+.a{
+    height:30vh;
+
+}
+.b{
+    height: 50vh;
+    width: 80vw;
+}
+.c{
+ height: 50vh;
+    width: 20vw;
+}
+@media screen and ( max-width: 1000px) {
+    .a {
+        height: 10vh;
+    }
+    .bc{
+        flex-direction: column;
+    }
+    .b{
+        width: auto;
+        height:30vh ;
+    }
+    .c{
+        width: auto;
+        height: 10vh;
+    }
+}
