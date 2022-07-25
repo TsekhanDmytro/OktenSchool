@@ -36,10 +36,10 @@
 
 
 // // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
-// let firstName = prompt('firstName');
-// let middleName= prompt('middleName');
-// let age= prompt('age');
-// console.log(`${firstName} ${middleName} ${age}`)
+let firstName = prompt('firstName');
+let middleName= prompt('middleName');
+let age= +prompt('age');
+console.log(`${firstName} ${middleName} ${age}`)
 
 
 // // - Створити масив об'єктів з назвою books з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
