@@ -76,10 +76,10 @@
 // ];
 //
 // for (const product of products) {
-// document.write(`<div class="product-card">`)
-// document.write(`<h3 class="product-title"> ${product.title} ${product.price} </h3>`)
-//     document.write(`<img src="${product.image}" alt="product" class="product-image">`)
-// document.write(`</div>`)
+// document.write(`<div class="product-card">
+// <h3 class="product-title"> ${product.title} ${product.price} </h3>
+// <img src="${product.image}" alt="product" class="product-image">
+// </div>`)
 // }
 // --------------------
 // //     є масив
@@ -183,7 +183,7 @@
 // let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 // let i = 1;
 // while (i < arr.length) {
-//     if (i % 2 === 0) {
+//     if (arr[i]% 2 === 0) {
 //     console.log(arr[i]);
 //     }
 //     i++;
@@ -198,32 +198,86 @@
 //    }
 // }
 
-// 7. замінити кожне число кратне 3 на слово "okten"
+// // 7. замінити кожне число кратне 3 на слово "okten"
 // let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
-// for (const number of arr) {
-//     if (number %3===0){
-//         console.log('okten');
+// for (let number of arr) {
+//     if (number%3===0 ){
+//         number = 'okten'
+//         console.log(number);
 //     }
 //     else console.log(number);
 // }
 
-// 8. вивести масив в зворотньому порядку.
-let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
-for (let i = arr.length - 1; i >= 0; i--) {
-    const arrElement = arr[i];
-    console.log(arrElement);
-}
-
-
-
-
-
-
-
+// // 8. вивести масив в зворотньому порядку.
+// let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     const arrElement = arr[i];
+//     console.log(arrElement);
+// }
 
 
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
-//
+
+// // 1. перебрати його циклом while (revers)
+// let arr = [2,17,13,6,22,31,45,66,100,-18];
+// let i = arr.length;
+// while (i--){
+//     console.log(arr[i]);
+// }
+
+// // //     2. перебрати його циклом for
+// let arr = [2,17,13,6,22,31,45,66,100,-18];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     const arrElement = arr[i];
+//     console.log(arrElement)
+// }
+
+// //     3. перебрати циклом while та вивести  числа тільки з непарним індексом
+// let arr = [2,17,13,6,22,31,45,66,100,-18];
+// let i = arr.length;
+// while (i--){
+//     if (i % 2 === 1) {
+//     console.log(arr[i]);
+//     }
+// }
+
+// // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+// let array = [2,17,13,6,22,31,45,66,100,-18];
+// for (let i = array.length - 1; i >= 0; i--) {
+//     const arrayElement = array[i];
+//     if (i% 2 === 1){
+//         console.log(arrayElement);
+//     }
+// }
+
+// // 5. перебрати циклом while та вивести  числа тільки парні  значення
+// let arr = [2,17,13,6,22,31,45,66,100,-18];
+// let i = arr.length;
+// while (i--){
+//     if (arr[i] % 2 === 0) {
+//     console.log(arr[i]);
+//     }
+// }
+
+// // 6. перебрати циклом for та вивести  числа тільки парні  значення
+// let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     const arrElement = arr[i];
+//     if(arr[i]%2===0){
+//         console.log(arrElement)
+//     }
+// }
+
+// // 7. замінити кожне число кратне 3 на слово "okten"
+// let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     let arrElement = arr[i];
+//     if (arrElement%3===0){
+//         arrElement='okten'
+//         console.log(arrElement)
+//     }else console.log(arrElement)
+// }
+
 // - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
 // - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
 // - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
