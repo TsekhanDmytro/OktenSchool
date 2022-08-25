@@ -160,52 +160,52 @@
 
 //----------------------------------------------------------------------------------------------------------------------------------
 
-// -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
-class Cinderella {
-    constructor(name, age, size) {
-        this.name = name;
-        this.age = age;
-        this.size = size;
-    };
-
-}
-
-let cinderella1 = new Cinderella('Vika', 12, 34);
-let cinderella2 = new Cinderella('Tanya', 20, 35);
-let cinderella3 = new Cinderella('Olya', 18, 33);
-let cinderella4 = new Cinderella('Sasha', 16, 38);
-let cinderella5 = new Cinderella('Anna', 31, 37);
-let cinderella6 = new Cinderella('Katya', 25, 34);
-let cinderella7 = new Cinderella('Lama', 19, 35);
-let cinderella8 = new Cinderella('Rika', 20, 36);
-let cinderella9 = new Cinderella('Nadya', 18, 35);
-let cinderella10 = new Cinderella('Switlana', 16, 37);
-let cinderellas = [cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6, cinderella7, cinderella8, cinderella9, cinderella10];
-
-// Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
-class Prince extends Cinderella {
-    constructor(name, age, shoe) {
-        super();
-        this.shoe = shoe;
-    };
-
-    // За допомоги циклу знайти яка попелюшка повинна бути з принцом.
-    fainderCinderellas(Cinderellas) {
-        for (const cinderella of Cinderellas) {
-            if (cinderella.size === prince.shoe && cinderella.age >= 18) {
-                console.log(`Моя попелюшка це ${cinderella.name}`);
-            }
-        }
-    };
-
-//     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-    fainderCinderellas2(cinderellas) {
-        for (const cinderella of cinderellas) {
-           if (cinderellas.find(value => cinderella.size=== prince.shoe)){
-            console.log(`Моя попелюшка це ${cinderella.name}`);}
-        }
-    };
-}
-let prince = new Prince('Dima', 27, 36);
-prince.fainderCinderellas(cinderellas);
-prince.fainderCinderellas2(cinderellas);
+// // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
+// class Cinderella {
+//     constructor(name, age, size) {
+//         this.name = name;
+//         this.age = age;
+//         this.size = size;
+//     };
+//
+// }
+//
+// let cinderella1 = new Cinderella('Vika', 12, 34);
+// let cinderella2 = new Cinderella('Tanya', 20, 35);
+// let cinderella3 = new Cinderella('Olya', 18, 33);
+// let cinderella4 = new Cinderella('Sasha', 16, 38);
+// let cinderella5 = new Cinderella('Anna', 31, 37);
+// let cinderella6 = new Cinderella('Katya', 25, 34);
+// let cinderella7 = new Cinderella('Lama', 19, 35);
+// let cinderella8 = new Cinderella('Rika', 20, 36);
+// let cinderella9 = new Cinderella('Nadya', 18, 35);
+// let cinderella10 = new Cinderella('Switlana', 16, 37);
+// let cinderellas = [cinderella1, cinderella2, cinderella3, cinderella4, cinderella5, cinderella6, cinderella7, cinderella8, cinderella9, cinderella10];
+//
+// // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+// class Prince extends Cinderella {
+//     constructor(name, age, shoe) {
+//         super();
+//         this.shoe = shoe;
+//     };
+//
+//     // За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+//     fainderCinderellas(Cinderellas) {
+//         for (const cinderella of Cinderellas) {
+//             if (cinderella.size === prince.shoe && cinderella.age >= 18) {
+//                 console.log(`Моя попелюшка це ${cinderella.name}`);
+//             }
+//         }
+//     };
+//
+// //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+//     fainderCinderellas2(cinderellas) {
+//         for (const cinderella of cinderellas) {
+//            if (cinderellas.find(value => cinderella.size=== prince.shoe)){
+//             console.log(`Моя попелюшка це ${cinderella.name}`);}
+//         }
+//     };
+// }
+// let prince = new Prince('Dima', 27, 36);
+// prince.fainderCinderellas(cinderellas);
+// prince.fainderCinderellas2(cinderellas);
