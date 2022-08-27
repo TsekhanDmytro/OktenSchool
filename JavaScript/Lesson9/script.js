@@ -253,28 +253,37 @@
 
 // -----------
 
-//     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
-let h1= document.createElement('h1');
-let button= document.createElement('button');
-let form= document.createElement('form');
-form.onsubmit =function (e){
-    e.preventDefault();
-};
-h1.textContent= 'Test';
-h1.id='text';
-button.textContent='delet ID';
-button.onclick= function () {
-    h1.textContent ='';
-}
-document.body.append(form);
-form.append(h1);
-form.append(button);
+// //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+// let h1= document.createElement('h1');
+// let button= document.createElement('button');
+// let form= document.createElement('form');
+// form.onsubmit =function (e){
+//     e.preventDefault();
+// };
+// h1.textContent= 'Test';
+// h1.id='text';
+// button.textContent='delet ID';
+// button.onclick= function () {
+//     h1.textContent ='';
+// }
+// document.body.append(form);
+// form.append(h1);
+// form.append(button);
 
+// -----------------------------------------------
 
-//
-//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-//
-//
-// *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
-//     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
-// (Додатковачастина для завдання)
+// // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+// let form = document.createElement('form');
+// let input = document.createElement('input');
+// let button = document.createElement('button');
+// button.textContent = `sand age`;
+// form.onsubmit = function (e) {
+//     e.preventDefault();
+//     if (input.value >= 18) {
+//         alert('ок');
+//     } else alert('no');
+// }
+// document.body.append(form);
+// form.append(input);
+// form.append(button);
+
